@@ -1,0 +1,20 @@
+First run LSTM 12 months 50 epochs
+Test MSE:  558.0421
+Test RMSE: 23.6229
+Test MAE:  10.1798
+Test R²:   0.6502
+First run LSTM 36 months 50 epochs
+Test MSE:  553.1659
+Test RMSE: 23.5195
+Test MAE:  9.8442
+Test R²:   0.6532
+
+Test MSE:  501.4781
+Test RMSE: 22.3937
+Test MAE:  9.1540
+Test R²:   0.6856
+
+Test MSE:  463.8385
+Test RMSE: 21.5369
+Test MAE:  8.0080
+Test R²:   0.7092
