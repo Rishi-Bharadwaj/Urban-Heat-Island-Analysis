@@ -1,0 +1,12 @@
+# Ignore large files and folders
+large_data/
+*.tif
+*.hdf
+*.nc
+*.zip
+*.tar.gz
+*.pkl
+# Ignore system files
+.DS_Store
+Thumbs.db
+
