@@ -62,7 +62,19 @@ Test MAE:  1.4518
 Test R²:   0.9150
 Test MAPE:   0.0787
 
+12 months 10k
+Test MSE:  6.3191
+Test RMSE: 2.5138
+Test MAE:  1.4725
+Test R²:   0.9204
+Test MAPE:   0.1440
 
+36 months 10k
+Test MSE:  2.9406
+Test RMSE: 1.7148
+Test MAE:  0.9483
+Test R²:   0.9623
+Test MAPE:   0.0371
 
 
 
