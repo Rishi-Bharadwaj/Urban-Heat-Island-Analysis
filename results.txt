@@ -77,8 +77,6 @@ Test R²:   0.9623
 Test MAPE:   0.0371
 
 
-
-
 (transformer first run)
 Test MSE:  661.9272
 Test RMSE: 25.7279
@@ -97,3 +95,11 @@ Test RMSE: 24.2049
 Test MAE:  10.4240
 Test R²:   0.6382
 Test MAPE:   0.4199
+
+
+36 months 10k
+Test MSE:  7.0941
+Test RMSE: 2.6635
+Test MAE:  1.6514
+Test R²:   0.9090
+Test MAPE:   0.0626
