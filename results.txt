@@ -46,6 +46,27 @@ Test MAE:  7.1682
 Test R²:   0.6845
 Test MAPE:   0.2255
 
+
+test(36 months actual)
+Test MSE:  400.2367
+Test RMSE: 20.0059
+Test MAE:  6.2839
+Test R²:   0.7122
+Test MAPE:   0.2600
+
+
+12 months extra clean
+Test MSE:  6.6641
+Test RMSE: 2.5815
+Test MAE:  1.4518
+Test R²:   0.9150
+Test MAPE:   0.0787
+
+
+
+
+
+
 (transformer first run)
 Test MSE:  661.9272
 Test RMSE: 25.7279
