@@ -1,60 +1,3 @@
-First run LSTM 12 months 50 epochs
-Test MSE:  558.0421
-Test RMSE: 23.6229
-Test MAE:  10.1798
-Test R²:   0.6502
-First run LSTM 36 months 50 epochs
-Test MSE:  553.1659
-Test RMSE: 23.5195
-Test MAE:  9.8442
-Test R²:   0.6532
-
-Test MSE:  501.4781
-Test RMSE: 22.3937
-Test MAE:  9.1540
-Test R²:   0.6856
-
-Test MSE:  463.8385
-Test RMSE: 21.5369
-Test MAE:  8.0080
-Test R²:   0.7092
-
-Test MSE:  452.3351
-Test RMSE: 21.2682
-Test MAE:  7.6077
-Test R²:   0.7164
-
-(Trained on all samples)
-Test MSE:  383.2466
-Test RMSE: 19.5767
-Test MAE:  6.5344
-Test R²:   0.7633
-Test MAPE:   0.2249
-
-
-(small, robust scaler)
-Test MSE:  514.6230
-Test RMSE: 22.6853
-Test MAE:  6.9539
-Test R²:   0.6774
-Test MAPE:   0.2438
-
-(small, standard scaler)
-Test MSE:  503.3054
-Test RMSE: 22.4345
-Test MAE:  7.1682
-Test R²:   0.6845
-Test MAPE:   0.2255
-
-
-test(36 months actual)
-Test MSE:  400.2367
-Test RMSE: 20.0059
-Test MAE:  6.2839
-Test R²:   0.7122
-Test MAPE:   0.2600
-
-
 12 months extra clean
 Test MSE:  6.6641
 Test RMSE: 2.5815
@@ -76,26 +19,37 @@ Test MAE:  0.9483
 Test R²:   0.9623
 Test MAPE:   0.0371
 
+36 40k
+Test MSE:  1.6674
+Test RMSE: 1.2913
+Test MAE:  0.6923
+Test R²:   0.9786
+Test MAPE:   0.0303
 
-(transformer first run)
-Test MSE:  661.9272
-Test RMSE: 25.7279
-Test MAE:  10.9573
-Test R²:   0.5850
-Test MAPE:   0.4176
 
-Test MSE:  527.1599
-Test RMSE: 22.9600
-Test MAE:  8.9392
-Test R²:   0.6744
-Test MAPE:   0.3844
+12 months 40k hyd
+Test MSE:  3.5282
+Test RMSE: 1.8784
+Test MAE:  1.0391
+Test R²:   0.9472
+Test MAPE:   0.0759
 
-Test MSE:  585.8781
-Test RMSE: 24.2049
-Test MAE:  10.4240
-Test R²:   0.6382
-Test MAPE:   0.4199
+transformer
 
+
+12 months extra clean:
+Test MSE:  11.4957
+Test RMSE: 3.3905
+Test MAE:  2.2109
+Test R²:   0.8533
+Test MAPE:   0.1154
+
+12 months 10k 
+Test MSE:  8.8408
+Test RMSE: 2.9733
+Test MAE:  1.9114
+Test R²:   0.8883
+Test MAPE:   0.1282
 
 36 months 10k
 Test MSE:  7.0941
@@ -103,3 +57,23 @@ Test RMSE: 2.6635
 Test MAE:  1.6514
 Test R²:   0.9090
 Test MAPE:   0.0626
+
+
+36 40k
+Test MSE:  7.6275
+Test RMSE: 2.7618
+Test MAE:  1.8209
+Test R²:   0.9022
+Test MAPE:   0.0845
+
+36 40k 6
+Test MSE:  8.2708
+Test RMSE: 2.8759
+Test MAE:  1.8955
+Test R²:   0.8944
+Test MAPE:   0.0840
+
+
+
+Best hyperparameters: {'d_model': 256, 'nhead': 8, 'num_layers': 3, 'dim_feedforward': 256, 'dropout': 0.1003293115205969, 'lr': 0.0006331182245241827, 'weight_decay': 4.701444243150461e-05, 'batch_size': 32}
+Best validation MSE: 8.020761489868164
