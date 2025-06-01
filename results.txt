@@ -19,6 +19,19 @@ Test MAE:  0.9483
 Test R²:   0.9623
 Test MAPE:   0.0371
 
+36 10k ee
+Test MSE:  2.6537
+Test RMSE: 1.6290
+Test MAE:  0.8930
+Test R²:   0.9643
+Test MAPE:   0.0417
+36 10k v
+Test MSE:  2.4695
+Test RMSE: 1.5715
+Test MAE:  0.8570
+Test R²:   0.9670
+Test MAPE:   0.0349
+
 36 40k
 Test MSE:  1.6674
 Test RMSE: 1.2913
@@ -26,6 +39,12 @@ Test MAE:  0.6923
 Test R²:   0.9786
 Test MAPE:   0.0303
 
+36 40k ee
+Test MSE:  1.3588
+Test RMSE: 1.1657
+Test MAE:  0.6435
+Test R²:   0.9817
+Test MAPE:   0.0231
 
 12 months 40k hyd
 Test MSE:  3.5282
